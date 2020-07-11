@@ -36,7 +36,7 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
   result = planeteer_calls.find{|item| item.include? ("Earth!" || "Wind!" || "Fire!" || "Water!" || "Heart!")}
   if result = TRUE
-    return result
+    return item
   else 
     return nil
   end
