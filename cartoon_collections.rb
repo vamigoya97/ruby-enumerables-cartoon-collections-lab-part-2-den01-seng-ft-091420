@@ -39,7 +39,7 @@ def find_valid_calls(planeteer_calls)
   string == "Wind!" || 
   string == "Fire!" || 
   string == "Water!" ||
-  string == "Heart!")}
+  string == "Heart!"}
   return result 
 
 end
