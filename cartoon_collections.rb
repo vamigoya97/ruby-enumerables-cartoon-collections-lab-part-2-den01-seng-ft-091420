@@ -35,11 +35,11 @@ def find_valid_calls(planeteer_calls)
   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above 
   # Return the first valid call found, or return nil if no valid calls are found
   result = planeteer_calls.find
-  {|string| string == "Earth!" or 
-  string == "Wind!" or 
-  string == "Fire!" or 
-  string == "Water!" or
-  string == "Heart!"}
+  {|parameter| parameter == "Earth!" or 
+  parameter == "Wind!" or 
+  parameter == "Fire!" or 
+  parameter == "Water!" or
+  parameter == "Heart!"}
   return result 
 
 end
